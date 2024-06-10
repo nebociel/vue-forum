@@ -1,13 +1,10 @@
 <template>
-  <div>
-    <h1>Hello</h1>
-    <p>{{ sourceData }}</p>
-  </div>
+  <PageHome />
 </template>
 
 <script setup>
-import sourceData from '@/data.json';
-
+import { ref } from 'vue';
+import PageHome from '@/components/PageHome.vue';
 </script>
 
 <style scoped></style>
